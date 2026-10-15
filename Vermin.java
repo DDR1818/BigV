@@ -26,5 +26,9 @@ class Main {
         Scanner scan3 = new Scanner(System.in);
         System.out.println("You must now provide the supreme leader you first name");
         String name = scan3.nextLine().toLowerCase();
+        if ("aeiou".indexOf(name.substring(0,1))==-1 && color.equals("green") && season.equals("winter")){
+            pet = "giraffe";
+            System.out.println(pet);
+        }
     }
 }
