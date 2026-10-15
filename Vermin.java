@@ -30,5 +30,17 @@ class Main {
             pet = "giraffe";
             System.out.println(pet);
         }
+        if (color.equals("blue") && season.equals("fall")){
+            pet = "alligator";
+            System.out.println(pet);
+        }
+        if (color.equals("blue") && season.equals("spring")){
+            pet = "ostrich";
+            System.out.println(pet);
+        }
+        if (color.equals("green") && !season.equals("fall") && pet!="giraffe"){
+            pet = "dog";
+            System.out.println(pet);
+        }
     }
 }
