@@ -42,5 +42,24 @@ class Main {
             pet = "dog";
             System.out.println(pet);
         }
+        if ("aeiou".indexOf(name.substring(0,1))==0){
+            pet = "panda";
+            System.out.println(pet);
+        } else if (color.equals("red")){
+            pet = "porcupine";
+            System.out.println(pet);
+        }
+        if (season.equals("summer") && pet!="dog" && pet!="panda" && pet!="porcupine"){
+            pet = "ponies";
+            System.out.println(pet);
+        }
+        if (color.equals("blue") && "aeiou".indexOf(name.substring(0,1))==-1 && !season.equals("fall") && !season.equals("summer") && pet!="ostrich"){
+            pet = "axolotl";
+            System.out.println(pet);
+        }
+        if (pet!="dog" && pet!="panda" && pet!="ostrich" && pet!="porcupine" && pet!="alligator" && pet!="giraffe" && pet!="axolotl"){
+            pet = "rock";
+            System.out.println(pet + ", better luck next time.");
+        }
     }
 }
