@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//This was created by Darwin S. no ai was used in the creation of this app//
 class Main {
     public static void main(String[] args) {
         String pet = "";
